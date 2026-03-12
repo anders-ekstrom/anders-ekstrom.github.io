@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     id: "project-one",
     title: "Salt Finger - Double Diffusive Instability",
-    description: "OpenFOAM custom solver for two density-effecting scalars..",
+    description: "OpenFOAM custom solver for two density-effecting scalars.",
     longDescription: "text text more text.",
     coverImage: salt_finger,
     hero: salt_movie,
