@@ -25,19 +25,77 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "project-one",
-    title: "Salt Finger - Double Diffusive Instability",
-    description: "OpenFOAM custom solver for two density-effecting scalars.",
-    longDescription: "text text more text.",
-    coverImage: salt_finger,
-    hero: salt_movie,
-    gallery: [project1, project2, project3, project4],
-    link: "https://github.com/",
-  },
-  {
-    id: "project-two",
+ {
+    id: "dam-break-validation",
     title: "Dam Break Validation",
     description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+  {
+    id: "channel-turbulence",
+    title: "LES Turbulence Model Evaluation for Channel Flows",
+    description: "Evaluation of four LES turbulence models (Smagorinsky, Dynamic Smagorinsky, Sigma, WALE) for the canonical channel flow case at a friction Reynolds number of 395.",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+
+  {
+    id: "rod-roughened-channel",
+    title: "Rod Roughened Channel Flow",
+    description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+  {
+    id: "rayleigh-benard-convection ",
+    title: "Rayleigh-Benard Convection MATLAB 2D Solver",
+    description: "",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+  {
+    id: "rising-bubble",
+    title: "Rising Bubble",
+    description: "",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+  {
+    id: "vertical-channel-heated-walls",
+    title: "Bouyancy Dominated Vertical Chnnel",
+    description: "",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+  {
+    id: "connect-four",
+    title: "Connect Four Monte Carlo Tree Search",
+    description: "",
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
