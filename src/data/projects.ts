@@ -25,7 +25,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
- {
     id: "dam-break-validation",
     title: "Dam Break Validation",
     description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
