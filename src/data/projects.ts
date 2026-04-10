@@ -61,7 +61,7 @@ export const projects: Project[] = [
   {
     id: "rayleigh-benard-convection ",
     title: "Rayleigh-Benard Convection MATLAB 2D Solver",
-    description: "",
+    description: "text text more text",
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
@@ -72,7 +72,7 @@ export const projects: Project[] = [
   {
     id: "rising-bubble",
     title: "Rising Bubble",
-    description: "",
+    description: "text text more text",
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
@@ -83,7 +83,7 @@ export const projects: Project[] = [
   {
     id: "vertical-channel-heated-walls",
     title: "Bouyancy Dominated Vertical Chnnel",
-    description: "",
+    description: "text text more text",
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
@@ -94,7 +94,7 @@ export const projects: Project[] = [
   {
     id: "connect-four",
     title: "Connect Four Monte Carlo Tree Search",
-    description: "",
+    description: "text text more text",
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
