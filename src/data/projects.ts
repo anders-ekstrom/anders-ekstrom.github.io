@@ -7,7 +7,7 @@ import dam_still from "@/assets/dam_still.jpg";
 import salt_finger from "@/assets/salt_finger.png";
 import salt_movie from "@/assets/salt_fingers.mp4";
 import sediment_movie from "@/assets/sediment_movie_refined_cropped.mp4";
-import rising_bubble_movie from "@assets/rising_bubble.mp4";
+import rising_bubble_movie from "@/assets/rising_bubble.mp4";;
 import channel_movie from "@/assets/channel_flow_movie_w_q2.mp4";
 import rod_movie from "@/assets/rod_no_q.mp4";
 import rb_movie from "@/assets/rb_sped_up.mp4";
