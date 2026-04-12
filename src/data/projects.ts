@@ -3,7 +3,7 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import dam_movie from "@/assets/dam_cropped.mp4";
-import dam_still from "@/assets/dam_still.jpg";
+import dam_still from "@/assets/dam_thumbnail.png";
 import salt_finger from "@/assets/salt_finger.png";
 import salt_movie from "@/assets/salt_fingers.mp4";
 import sediment_movie from "@/assets/sediment_movie_refined_cropped.mp4";
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     title: "Sediment Transport",
     description: "Custom OpenFOAM solver for sediment transport with an other density-effecting scalar (i.e., temperature).",
     longDescription: "text text more text.",
-    coverImage: dam_still,
+    coverImage: sediment_thumbnail,
     hero: sediment_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
