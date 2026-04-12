@@ -28,6 +28,7 @@ export interface Project {
   hoverMedia?: string;   // media shown on tile hover
   gallery: string[];     // images or videos (mp4/webm/mov auto-play muted loop)
   link?: string;         // e.g. GitHub URL
+  pdf?: string;          // link to a PDF
   subtitle?: string;
   tags?: string[];
   year?: string;
