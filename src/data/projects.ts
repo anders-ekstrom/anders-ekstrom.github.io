@@ -111,8 +111,6 @@ export const projects: Project[] = [
     link: "https://github.com/",
   },
 
-
-
   {
     id: "vertical-channel-heated-walls",
     title: "Bouyancy Dominated Vertical Chnnel",
