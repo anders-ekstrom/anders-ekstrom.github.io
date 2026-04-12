@@ -10,7 +10,8 @@ import sediment_movie from "@/assets/sediment_movie_refined_cropped.mp4";
 import rising_bubble_movie from "@/assets/rising_bubble.mp4";
 import channel_movie from "@/assets/channel_flow_movie_w_q2_cropped.mp4";
 import rod_movie from "@/assets/rod_no_q.mp4";
-import rb_movie from "@/assets/rb_sped_up.mp4";
+import rb_movie from "@/assets/rb_theta_n2.mp4";
+import rb_thumbnail from "@/assets/rb_thumbnail4.png";
 import sediment_thumbnail from "@/assets/sediment_thumbnail_crop.png";
 import bubble_thumbnail from "@/assets/bubble_thumbnail_crop.png";
 import channel_thumbnail from "@/assets/channel_thumbnail.png";
@@ -94,8 +95,8 @@ export const projects: Project[] = [
     title: "Rayleigh-Benard Convection",
     description: "2D Navier-Stokes for momentum, continuity, and energy equations",
     longDescription: "text text more text.",
-    coverImage: channel_thumbnail,
-    hero: channel_movie,
+    coverImage: rb_thumbnail,
+    hero: rb_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
   },
