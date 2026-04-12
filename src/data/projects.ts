@@ -4,18 +4,18 @@ import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import dam_movie from "@/assets/dam_cropped.mp4";
 import dam_still from "@/assets/dam_thumbnail.png";
-import salt_finger from "@/assets/salt_finger.png";
+import salt_finger from "@/assets/salt_finger3.png";
 import salt_movie from "@/assets/salt_fingers.mp4";
 import sediment_movie from "@/assets/sediment_movie_refined_cropped.mp4";
 import rising_bubble_movie from "@/assets/rising_bubble.mp4";
 import channel_movie from "@/assets/channel_flow_movie_w_q2_cropped.mp4";
-import rod_movie from "@/assets/rod_no_q.mp4";
-import rb_movie from "@/assets/rb_theta_n2.mp4";
-import rb_thumbnail from "@/assets/rb_thumbnail4.png";
-import sediment_thumbnail from "@/assets/sediment_thumbnail_crop.png";
+import rod_movie from "@/assets/rod_no_q_cropped.mp4";
+import rb_movie from "@/assets/rb_theta_n2_cropped.mp4";
+import rb_thumbnail from "@/assets/rb_thumbnail5.png";
+import sediment_thumbnail from "@/assets/sediment_thumbnail3.png";
 import bubble_thumbnail from "@/assets/bubble_thumbnail_crop.png";
 import channel_thumbnail from "@/assets/channel_thumbnail.png";
-import vert_channel_thumbnail from "@/assets/domain_vert_channel.png";
+import vert_channel_thumbnail from "@/assets/domain_vert_channel2.png";
 import rod_thumbnail from "@/assets/rod_thumbnail.png";
 
 export interface Project {
