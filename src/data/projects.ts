@@ -12,6 +12,10 @@ import channel_movie from "@/assets/channel_flow_movie_w_q2_cropped.mp4";
 import rod_movie from "@/assets/rod_no_q.mp4";
 import rb_movie from "@/assets/rb_sped_up.mp4";
 import sediment_thumbnail from "@/assets/sediment_thumbnail_crop.png";
+import bubble_thumbnail from "@/assets/bubble_thumbnail_crop.png";
+import channel_thumbnail from "@/assets/channel_thumbnail.png";
+import vert_channel_thumbnail from "@/assets/domain_vert_channel.png";
+import rod_thumbnail from "@/assets/rod_thumbnail.png";
 
 export interface Project {
   id: string;
@@ -66,7 +70,7 @@ export const projects: Project[] = [
     title: "LES Turbulence Model Evaluation for Channel Flows",
     description: "Evaluation of four LES turbulence models (Smagorinsky, Dynamic Smagorinsky, Sigma, WALE) for the canonical channel flow case at a friction Reynolds number of 395.",
     longDescription: "text text more text.",
-    coverImage: dam_still,
+    coverImage: channel_thumbnail,
     hero: channel_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
@@ -78,19 +82,20 @@ export const projects: Project[] = [
     title: "Rod Roughened Channel Flow",
     description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
     longDescription: "text text more text.",
-    coverImage: dam_still,
+    coverImage: rod_thumbnail,
     hero: rod_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
   },
 
-  {
-    id: "rayleigh-benard-convection ",
-    title: "Rayleigh-Benard Convection MATLAB 2D Solver",
-    description: "text text more text",
+
+    {
+    id: "rayleigh-benard",
+    title: "Rayleigh-Benard Convection",
+    description: "2D Navier-Stokes for momentum, continuity, and energy equations",
     longDescription: "text text more text.",
-    coverImage: dam_still,
-    hero: rb_movie,
+    coverImage: channel_thumbnail,
+    hero: channel_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
   },
@@ -100,7 +105,7 @@ export const projects: Project[] = [
     title: "Rising Bubble",
     description: "text text more text",
     longDescription: "text text more text.",
-    coverImage: dam_still,
+    coverImage: bubble_thumbnail,
     hero: rising_bubble_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
@@ -111,7 +116,7 @@ export const projects: Project[] = [
     title: "Bouyancy Dominated Vertical Chnnel",
     description: "text text more text",
     longDescription: "text text more text.",
-    coverImage: dam_still,
+    coverImage: vert_channel_thumbnail,
     hero: dam_movie,
     gallery: [project2, project3, project4],
     link: "https://github.com/",
