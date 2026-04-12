@@ -11,6 +11,7 @@ import rising_bubble_movie from "@/assets/rising_bubble.mp4";
 import channel_movie from "@/assets/channel_flow_movie_w_q2_cropped.mp4";
 import rod_movie from "@/assets/rod_no_q.mp4";
 import rb_movie from "@/assets/rb_sped_up.mp4";
+import sediment_thumbnail from "@/assets/sediment_thumbnail_crop.png";
 
 export interface Project {
   id: string;
