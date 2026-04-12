@@ -9,6 +9,7 @@ const ProjectDetail = () => {
   const project = projects.find((p) => p.id === id);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [heroLightbox, setHeroLightbox] = useState(false);
 
   if (!project) {
     return (
@@ -76,23 +77,55 @@ const ProjectDetail = () => {
       {project.hero && (
         <div className="px-6 md:px-12 lg:px-20 pb-12">
           <div className="max-w-6xl mx-auto">
-            <div className="overflow-hidden rounded-3xl aspect-[16/9] bg-secondary">
+            <button
+              onClick={() => setHeroLightbox(true)}
+              className="w-full overflow-hidden rounded-3xl aspect-[16/9] bg-secondary cursor-pointer group"
+            >
               {isVideo(project.hero) ? (
                 <video
                   src={project.hero}
                   autoPlay loop muted playsInline
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                 />
               ) : (
                 <img
                   src={project.hero}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                 />
               )}
-            </div>
+            </button>
           </div>
         </div>
+      )}
+
+      {/* Hero lightbox */}
+      {project.hero && (
+        <Dialog open={heroLightbox} onOpenChange={setHeroLightbox}>
+          <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto p-0 border-none bg-transparent shadow-none rounded-none [&>button]:hidden">
+            <div className="flex flex-col items-center gap-4">
+              {isVideo(project.hero) ? (
+                <video
+                  src={project.hero}
+                  autoPlay loop muted playsInline
+                  className="max-w-[80vw] max-h-[80vh] object-contain"
+                />
+              ) : (
+                <img
+                  src={project.hero}
+                  alt={project.title}
+                  className="max-w-[80vw] max-h-[80vh] object-contain"
+                />
+              )}
+              <button
+                onClick={() => setHeroLightbox(false)}
+                className="p-2 rounded-full bg-background/80 text-foreground hover:bg-background transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+          </DialogContent>
+        </Dialog>
       )}
 
       {/* Description */}
