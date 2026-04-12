@@ -18,7 +18,7 @@ const ProjectTile = ({ project, index }: ProjectTileProps) => {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
         {/* Image */}
-        <div className="overflow-hidden rounded-3xl aspect-[16/10] bg-secondary">
+        <div className="overflow-hidden rounded-3xl aspect-[16/9] bg-secondary">
           {(() => {
             const src = isHovered && project.hoverMedia
               ? project.hoverMedia
