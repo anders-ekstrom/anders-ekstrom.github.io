@@ -35,39 +35,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: "project-one",
-    title: "Salt Finger - Double Diffusive Instability",
-    description: "OpenFOAM custom solver for two density-effecting scalars.",
-    longDescription: "text text more text.",
-    coverImage: salt_finger,
-    hero: salt_movie,
-    gallery: [project1, project2, project3, project4],
-    link: "https://github.com/",
-  },
-
-  {
-    id: "sediments",
-    title: "Sediment Transport",
-    description: "Custom OpenFOAM solver for sediment transport with an other density-effecting scalar (i.e., temperature).",
-    longDescription: "text text more text.",
-    coverImage: sediment_thumbnail,
-    hero: sediment_movie,
-    gallery: [project2, project3, project4],
-    link: "https://github.com/",
-  },
-  {
-    id: "dam-break-validation",
-    title: "Dam Break Validation",
-    description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
-    longDescription: "text text more text.",
-    coverImage: dam_still,
-    hero: dam_movie,
-    gallery: [project2, project3, project4],
-    link: "https://github.com/",
-  },
-
-  {
+    {
     id: "channel-turbulence",
     title: "LES Turbulence Model Evaluation for Channel Flows",
     description: "Evaluation of four LES turbulence models (Smagorinsky, Dynamic Smagorinsky, Sigma, WALE) for the canonical channel flow case at a friction Reynolds number of 395.",
@@ -75,7 +43,7 @@ export const projects: Project[] = [
     coverImage: channel_thumbnail,
     hero: channel_movie,
     gallery: [project2, project3, project4],
-    link: "https://github.com/",
+    pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
 
 
@@ -87,11 +55,9 @@ export const projects: Project[] = [
     coverImage: rod_thumbnail,
     hero: rod_movie,
     gallery: [project2, project3, project4],
-    link: "https://github.com/",
+    pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
-
-
-    {
+  {
     id: "rayleigh-benard",
     title: "Rayleigh-Benard Convection",
     description: "2D Navier-Stokes for momentum, continuity, and energy equations",
@@ -102,6 +68,27 @@ export const projects: Project[] = [
     link: "https://github.com/",
   },
 
+    {
+    id: "dam-break-validation",
+    title: "Dam Break Validation",
+    description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
+    longDescription: "text text more text.",
+    coverImage: dam_still,
+    hero: dam_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+    {
+    id: "sediments",
+    title: "Sediment Transport",
+    description: "Custom OpenFOAM solver for sediment transport with an other density-effecting scalar (i.e., temperature).",
+    longDescription: "text text more text.",
+    coverImage: sediment_thumbnail,
+    hero: sediment_movie,
+    gallery: [project2, project3, project4],
+    link: "https://github.com/",
+  },
   {
     id: "rising-bubble",
     title: "Rising Bubble",
@@ -112,6 +99,19 @@ export const projects: Project[] = [
     gallery: [project2, project3, project4],
     link: "https://github.com/",
   },
+  
+  {
+    id: "salt-fingers",
+    title: "Salt Finger - Double Diffusive Instability",
+    description: "OpenFOAM custom solver for two density-effecting scalars.",
+    longDescription: "text text more text.",
+    coverImage: salt_finger,
+    hero: salt_movie,
+    gallery: [project1, project2, project3, project4],
+    link: "https://github.com/",
+  },
+
+
 
   {
     id: "vertical-channel-heated-walls",
