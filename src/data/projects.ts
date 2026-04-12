@@ -17,6 +17,10 @@ import bubble_thumbnail from "@/assets/bubble_thumbnail_crop.png";
 import channel_thumbnail from "@/assets/channel_thumbnail.png";
 import vert_channel_thumbnail from "@/assets/domain_vert_channel2.png";
 import rod_thumbnail from "@/assets/rod_thumbnail.png";
+import probe1 from "@/assets/probe1.png";
+import probe2 from "@/assets/probe2.png";
+import probe3 from "@/assets/probe3.png";
+import probes from "@/assets/probes.png";
 
 export interface Project {
   id: string;
@@ -75,7 +79,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: dam_still,
     hero: dam_movie,
-    gallery: [project2, project3, project4],
+    gallery: [probes,probe3,probe2,probe1],
     link: "https://github.com/",
   },
 
