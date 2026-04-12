@@ -50,7 +50,6 @@ export const projects: Project[] = [
     pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
 
-
   {
     id: "rod-roughened-channel",
     title: "Rod Roughened Channel Flow",
