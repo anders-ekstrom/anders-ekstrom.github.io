@@ -20,7 +20,18 @@ import rod_thumbnail from "@/assets/rod_thumbnail.png";
 import probe1 from "@/assets/probe1.png";
 import probe2 from "@/assets/probe2.png";
 import probe3 from "@/assets/probe3.png";
-import probes from "@/assets/probes.png";
+import probes from "@/assets/probes2.png";
+
+import dissipation from "@/assets/dissipation.png";
+import tp2 from "@/assets/tp2.png";
+import uptp from "@/assets/uptp.png";
+import upvp from "@/assets/upvp.png";
+import vptp from "@/assets/vptp.png";
+import T from "@/assets/T.png";
+import U from "@/assets/U.png";
+import Eu from "@/assets/Eu.png";
+
+
 
 export interface Project {
   id: string;
@@ -121,7 +132,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: vert_channel_thumbnail,
     hero: dam_movie,
-    gallery: [project2, project3, project4],
+    gallery: [U,T,Eu,upvp,uptp,vptp,tp,dissipation],
     link: "https://github.com/",
   },
 
