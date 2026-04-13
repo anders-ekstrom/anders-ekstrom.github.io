@@ -21,7 +21,6 @@ import probe1 from "@/assets/probe1.png";
 import probe2 from "@/assets/probe2.png";
 import probe3 from "@/assets/probe3.png";
 import probes from "@/assets/probes2.png";
-
 import dissipation from "@/assets/dissipation.png";
 import tp2 from "@/assets/tp2.png";
 import uptp from "@/assets/uptp.png";
@@ -132,7 +131,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: vert_channel_thumbnail,
     hero: dam_movie,
-    gallery: [U,T,Eu,upvp,uptp,vptp,tp,dissipation],
+    gallery: [U,T,Eu,upvp,uptp,vptp,tp2,dissipation],
     link: "https://github.com/",
   },
 
