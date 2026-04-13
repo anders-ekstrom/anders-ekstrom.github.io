@@ -85,11 +85,11 @@ export const projects: Project[] = [
   },
   {
     id: "rayleigh-benard",
-    title: "Rayleigh-Benard Convection",
+    title: "Rayleigh Benard Convection",
     description: "2D Navier-Stokes for momentum, continuity, and energy equations",
     longDescription: "Built a 2D incompressible Navier–Stokes solver in MATLAB for Rayleigh-Benard convection using the Boussinesq approximation. The solver uses a staggered grid, second-order central differencing in space, RK2 time integration, and a pressure projection step to enforce incompressibility. The case shown is a thermally driven convection problem with periodic boundaries in the horizontal direction and no-slip, fixed-temperature walls at the top and bottom.",
-    coverImage: rod_thumbnail,
-    hero: rod_movie,
+    coverImage: rb_thumbnail,
+    hero: rb_movie,
     link: "https://github.com/",
   },
 
@@ -101,7 +101,6 @@ export const projects: Project[] = [
     coverImage: dam_still,
     hero: dam_movie,
     gallery: [probes,probe3,probe2,probe1],
-    link: "https://github.com/",
   },
 
     {
@@ -112,7 +111,6 @@ export const projects: Project[] = [
     coverImage: sediment_thumbnail,
     hero: sediment_movie,
     gallery: [project2, project3, project4],
-    link: "https://github.com/",
   },
   {
     id: "rising-bubble",
@@ -122,7 +120,6 @@ export const projects: Project[] = [
     coverImage: bubble_thumbnail,
     hero: rising_bubble_movie,
     gallery: [project2, project3, project4],
-    link: "https://github.com/",
   },
   
   {
@@ -133,7 +130,6 @@ export const projects: Project[] = [
     coverImage: salt_finger,
     hero: salt_movie,
     gallery: [project1, project2, project3, project4],
-    link: "https://github.com/",
   },
 
   {
@@ -143,12 +139,11 @@ export const projects: Project[] = [
     longDescription: "Performed an LES study of mixed convection in a turbulent vertical channel with isothermal walls. Gravity acts opposite the mean streamwise direction, so buoyancy assists the flow near the hot wall and opposes it near the cold wall. The solver uses a dynamic procedure for both eddy viscosity and scalar flux. Simulations were run for two cases: friction Reynolds number = 180, Grashof number = 1.6e6 and friction Reynolds number = 180, Grashof number = 0, to isolate effect of buoyancy on the flow.",
     coverImage: vert_channel_thumbnail,
     gallery: [log_law_vert_channel, vel, temp, spectra, upvp, uptp, vptp, tp2, dissipation],
-    link: "https://github.com/",
   },
 
   {
-    id: "connect-four",
-    title: "Connect Four Monte Carlo Tree Search",
+    id: "work-in-progress",
+    title: "Current Projects in Progress",
     description: "text text more text",
     longDescription: "text text more text.",
     coverImage: dam_still,
