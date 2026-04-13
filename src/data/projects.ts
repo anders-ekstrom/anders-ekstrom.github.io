@@ -29,6 +29,19 @@ import vptp from "@/assets/vptp.png";
 import temp from "@/assets/T.png";
 import vel from "@/assets/U.png";
 import spectra from "@/assets/Eu.png";
+import w2 from "@/assets/w2.png";
+import vort_z from "@/assets/vort_z.png";
+import vort_y from "@/assets/vort_y.png";
+import vort_x from "@/assets/vort_x.png";
+import v2 from "@/assets/v2.png";
+import uv from "@/assets/uv.png";
+import u2 from "@/assets/u2.png";
+import loglaw from "@/assets/loglaw.png";
+import stresses_rough from "@/assets/stresses_rough.png";
+import log_rough from "@/assets/log_rough.png";
+import log_scaled_rough from "@/assets/log_scaled_rough.png";
+import streamline from "@/assets/streamline.png";
+import log_law_vert_channel from "@/assets/log_law_vert_channel.png";
 
 
 
@@ -56,7 +69,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: channel_thumbnail,
     hero: channel_movie,
-    gallery: [project2, project3, project4],
+    gallery: [loglaw, u2, v2,w2,uv,vort_x,vort_y,vort_z],
     pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
 
@@ -67,7 +80,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: rod_thumbnail,
     hero: rod_movie,
-    gallery: [project2, project3, project4],
+    gallery: [streamline,log_rough,log_scaled_rough,stresses_rough],
     pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
   {
@@ -77,7 +90,6 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: rb_thumbnail,
     hero: rb_movie,
-    gallery: [project2, project3, project4],
     link: "https://github.com/",
   },
 
@@ -131,7 +143,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: vert_channel_thumbnail,
     hero: dam_movie,
-    gallery: [vel, temp, spectra, upvp, uptp, vptp, tp2, dissipation],
+    gallery: [log_law_vert_channel, vel, temp, spectra, upvp, uptp, vptp, tp2, dissipation],
     link: "https://github.com/",
   },
 
