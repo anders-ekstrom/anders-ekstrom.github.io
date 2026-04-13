@@ -24,6 +24,7 @@ const ProjectDetail = () => {
     );
   }
 
+  
   const isVideo = (src: string) =>
     src.endsWith(".mp4") || src.endsWith(".webm") || src.endsWith(".mov");
 
