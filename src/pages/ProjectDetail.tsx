@@ -222,7 +222,7 @@ const ProjectDetail = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              {project.gallery.length > 1 && (
+              {(project.gallery?.length ?? 0) > 1 && (
                 <div className="flex gap-2">
                   {project.gallery?.map((_, i) => (
                     <button
