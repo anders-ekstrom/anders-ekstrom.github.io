@@ -144,7 +144,7 @@ const ProjectDetail = () => {
       {/* Description */}
       <div className="px-6 md:px-12 lg:px-20 pb-16">
         <div className="max-w-6xl mx-auto">
-          <p className="text-base md:text-lg font-body text-foreground leading-relaxed">
+          <p className="text-base md:text-lg font-body text-foreground leading-relaxed whitespace-pre-line">
             {project.longDescription}
           </p>
         </div>
