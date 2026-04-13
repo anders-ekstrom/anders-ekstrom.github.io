@@ -90,6 +90,7 @@ export const projects: Project[] = [
     longDescription: "Built a 2D incompressible Navier–Stokes solver in MATLAB for Rayleigh-Benard convection using the Boussinesq approximation. The solver uses a staggered grid, second-order central differencing in space, RK2 time integration, and a pressure projection step to enforce incompressibility. The case shown is a thermally driven convection problem with periodic boundaries in the horizontal direction and no-slip, fixed-temperature walls at the top and bottom.",
     coverImage: rb_thumbnail,
     hero: rb_movie,
+    gallery: [probes,probe3,probe2,probe1],
     link: "https://github.com/",
   },
 
@@ -149,6 +150,5 @@ export const projects: Project[] = [
     coverImage: dam_still,
     hero: dam_movie,
     gallery: [project2, project3, project4],
-    link: "https://github.com/",
   },
 ];
