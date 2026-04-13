@@ -26,9 +26,9 @@ import tp2 from "@/assets/tp2.png";
 import uptp from "@/assets/uptp.png";
 import upvp from "@/assets/upvp.png";
 import vptp from "@/assets/vptp.png";
-import T from "@/assets/T.png";
-import U from "@/assets/U.png";
-import Eu from "@/assets/Eu.png";
+import temp from "@/assets/T.png";
+import vel from "@/assets/U.png";
+import spectra from "@/assets/Eu.png";
 
 
 
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: vert_channel_thumbnail,
     hero: dam_movie,
-    gallery: [U,T,Eu,upvp,uptp,vptp,tp2,dissipation],
+    gallery: [vel,temp,spectra,upvp,uptp,vptp,tp2,dissipation],
     link: "https://github.com/",
   },
 
