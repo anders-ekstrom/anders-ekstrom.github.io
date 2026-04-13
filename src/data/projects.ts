@@ -42,6 +42,7 @@ import log_rough from "@/assets/log_rough.png";
 import log_scaled_rough from "@/assets/log_scaled_rough.png";
 import streamline from "@/assets/streamline.png";
 import log_law_vert_channel from "@/assets/log_law_vert_channel.png";
+import cone from "@/assets/cone.png";
 
 
 
@@ -86,7 +87,7 @@ export const projects: Project[] = [
   {
     id: "rayleigh-benard",
     title: "Rayleigh Benard Convection",
-    description: "2D Navier-Stokes solver in MATLAB to simulatio thermally driven Rayleigh-Benard convection",
+    description: "2D Navier-Stokes solver in MATLAB to applied to simulate thermally driven Rayleigh-Benard convection",
     longDescription: "Built a 2D incompressible Navier–Stokes solver in MATLAB for Rayleigh-Benard convection using the Boussinesq approximation. The solver uses a staggered grid, second-order central differencing in space, RK2 time integration, and a pressure projection step to enforce incompressibility. The case shown is a thermally driven convection problem with periodic boundaries in the horizontal direction and no-slip, fixed-temperature walls at the top and bottom.",
     coverImage: rb_thumbnail,
     hero: rb_movie,
@@ -141,10 +142,8 @@ export const projects: Project[] = [
   {
     id: "work-in-progress",
     title: "Current Projects in Progress",
-    description: "text text more text",
-    longDescription: "text text more text.",
-    coverImage: dam_still,
-    hero: dam_movie,
-    gallery: [project2, project3, project4],
+    description: "A list of projects I am working on",
+    longDescription: "1. Heat transfer from an impinging jet. 2. Global dynamic procedure for model constant for Sigma LES model. 3. Runge-Kutta schemes for OpenFOAM",
+    coverImage: cone,
   },
 ];
