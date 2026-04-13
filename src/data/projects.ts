@@ -143,7 +143,7 @@ export const projects: Project[] = [
     id: "work-in-progress",
     title: "Current Projects in Progress",
     description: "A list of projects I am working on",
-    longDescription: "1. Heat transfer from an impinging jet. 2. Global dynamic procedure for model constant for Sigma LES model. 3. Runge-Kutta schemes for OpenFOAM",
+    longDescription: "1. Heat transfer from an impinging jet. \n\n 2. A global dynamic procedure for the Sigma LES model coefficient. \n\n 3. Runge-Kutta time-integration schemes for OpenFOAM",
     coverImage: cone,
   },
 ];
