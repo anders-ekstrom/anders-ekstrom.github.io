@@ -67,7 +67,7 @@ export const projects: Project[] = [
     id: "channel-turbulence",
     title: "LES Turbulence Model Evaluation for Channel Flows",
     description: "Evaluation of four LES turbulence models (Smagorinsky, Dynamic Smagorinsky, Sigma, WALE) for the canonical channel flow case at a friction Reynolds number of 395.",
-    longDescription: "Performed LES of turbulent plane channel flow in OpenFOAM at friction Reynolds number = 395 to compare several subgrid-scale turbulence models, including Smagorinsky, dynamic Smagorinsky, WALE, and Sigma. The case has periodic streamwise and spanwise boundaries, no-slip walls, a structured stretched mesh for near-wall resolution, and body-force-driven flow to maintain the target friction Reynolds number. Post-processed the simulations using mean velocity profiles, Reynolds stresses, vorticity statistics, two-point correlations, and anisotropy maps and compared to DNS results.",
+    longDescription: "LES of turbulent plane channel flow in OpenFOAM at friction Reynolds number = 395 to compare several subgrid-scale turbulence models, including Smagorinsky, dynamic Smagorinsky, WALE, and Sigma. The case has periodic streamwise and spanwise boundaries, no-slip walls, a structured stretched mesh for near-wall resolution, and body-force-driven flow to maintain the target friction Reynolds number. Post-processed the simulations using mean velocity profiles, Reynolds stresses, vorticity statistics, two-point correlations, and anisotropy maps and compared to DNS results.",
     coverImage: channel_thumbnail,
     hero: channel_movie,
     gallery: [loglaw, u2, v2,w2,uv,vort_x,vort_y,vort_z],
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   {
     id: "rod-roughened-channel",
     title: "Rod Roughened Channel Flow",
-    description: "LES simulation of rod-roughened channel to evaluate roughness effects in turbulent channel flow.",
+    description: "LES of rod-roughened channel to evaluate roughness effects in turbulent channel flow.",
     longDescription: "Extended the smooth-channel LES setup to a rod-roughened channel in OpenFOAM based on a published DNS configuration. Created the rough-wall geometry by adding evenly spaced square rods to the top and bottom walls, refined the mesh near and between the rods, and ran the case using the dynamic Smagorinsky model at the same nominal friction Reynolds number. Sampled the flow through multiple y-z planes and analyzed mean velocity profiles, Reynolds stresses, streamline patterns, and Q-criterion visualizations and compared to DNS results.",
     coverImage: rod_thumbnail,
     hero: rod_movie,
