@@ -131,7 +131,7 @@ export const projects: Project[] = [
     longDescription: "text text more text.",
     coverImage: vert_channel_thumbnail,
     hero: dam_movie,
-    gallery: [vel,temp,spectra,upvp,uptp,vptp,tp2,dissipation],
+    gallery: [project1],
     link: "https://github.com/",
   },
 
