@@ -142,7 +142,6 @@ export const projects: Project[] = [
     description: "text text more text",
     longDescription: "Performed an LES study of mixed convection in a turbulent vertical channel with isothermal walls. Gravity acts opposite the mean streamwise direction, so buoyancy assists the flow near the hot wall and opposes it near the cold wall. The solver uses a dynamic procedure for both eddy viscosity and scalar flux. Simulations were run for two cases: friction Reynolds number = 180, Grashof number = 1.6e6 and friction Reynolds number = 180, Grashof number = 0, to isolate effect of buoyancy on the flow.",
     coverImage: vert_channel_thumbnail,
-    hero: dam_movie,
     gallery: [log_law_vert_channel, vel, temp, spectra, upvp, uptp, vptp, tp2, dissipation],
     link: "https://github.com/",
   },
