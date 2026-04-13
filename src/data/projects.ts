@@ -94,6 +94,17 @@ export const projects: Project[] = [
   },
 
     {
+    id: "rayleigh-benard",
+    title: "Rayleigh-Benard Convection",
+    description: "2D Navier-Stokes in MATLAB.",
+    longDescription: "text",
+    coverImage: rb_thumbnail,
+    hero: rb_movie,
+    gallery: [streamline,log_rough,log_scaled_rough,stresses_rough],
+    link: "https://github.com/",
+  },
+
+    {
     id: "dam-break-validation",
     title: "Dam Break Validation",
     description: "Custom case in OpenFOAM to validate multi-phase flows with dam-break case.",
