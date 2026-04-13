@@ -33,11 +33,11 @@ const ProjectDetail = () => {
   };
 
   const prevSlide = () => {
-    setLightboxIndex((i) => (i === 0 ? project.gallery.length - 1 : i - 1));
+    setLightboxIndex((i) => (i === 0 ? (project.gallery?.length ?? 1) - 1 : i - 1));
   };
 
   const nextSlide = () => {
-    setLightboxIndex((i) => (i === project.gallery.length - 1 ? 0 : i + 1));
+    setLightboxIndex((i) => (i === (project.gallery?.length ?? 1) - 1 ? 0 : i + 1));
   };
 
   return (
@@ -151,7 +151,7 @@ const ProjectDetail = () => {
       </div>
 
       {/* Gallery */}
-      {project.gallery.length > 0 && (
+      {project.gallery && project.gallery.length > 0 && (
         <div className="px-6 md:px-12 lg:px-20 pb-20">
           <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {project.gallery.map((src, i) => {
@@ -188,7 +188,7 @@ const ProjectDetail = () => {
         <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto p-0 border-none bg-transparent shadow-none rounded-none [&>button]:hidden">
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-4">
-              {project.gallery.length > 1 && (
+              {(project.gallery?.length ?? 0) > 1 && (
                 <button
                   onClick={prevSlide}
                   className="p-2 rounded-full bg-background/80 text-foreground hover:bg-background transition-colors shrink-0"
@@ -197,21 +197,21 @@ const ProjectDetail = () => {
                 </button>
               )}
 
-              {isVideo(project.gallery[lightboxIndex]) ? (
+              {project.gallery && isVideo(project.gallery[lightboxIndex]) ? (
                 <video
                   src={project.gallery[lightboxIndex]}
                   autoPlay loop muted playsInline
                   className="max-w-[80vw] max-h-[80vh] object-contain"
                 />
-              ) : (
+              ) : project.gallery ? (
                 <img
                   src={project.gallery[lightboxIndex]}
                   alt={`${project.title} gallery ${lightboxIndex + 1}`}
                   className="max-w-[80vw] max-h-[80vh] object-contain"
                 />
-              )}
+              ) : null}
 
-              {project.gallery.length > 1 && (
+              {(project.gallery?.length ?? 0) > 1 && (
                 <button
                   onClick={nextSlide}
                   className="p-2 rounded-full bg-background/80 text-foreground hover:bg-background transition-colors shrink-0"
@@ -224,7 +224,7 @@ const ProjectDetail = () => {
             <div className="flex items-center gap-4">
               {project.gallery.length > 1 && (
                 <div className="flex gap-2">
-                  {project.gallery.map((_, i) => (
+                  {project.gallery?.map((_, i) => (
                     <button
                       key={i}
                       onClick={() => setLightboxIndex(i)}
