@@ -46,6 +46,8 @@ import cone from "@/assets/cone.png";
 import Umag_jet from "@/assets/Umag_jet.mp4";
 import T_jet_mean from "@/assets/T_jet_mean.png";
 import jet_thumbnail2 from "@/assets/jet_thumbnail2.png";
+import p_mean_jet from "@/assets/p_mean_jet.png";
+
 
 export interface Project {
   id: string;
@@ -93,7 +95,7 @@ export const projects: Project[] = [
     longDescription: "Extended the smooth-channel LES setup to a rod-roughened channel in OpenFOAM based on a published DNS configuration. Created the rough-wall geometry by adding evenly spaced square rods to the top and bottom walls, refined the mesh near and between the rods, and ran the case using the dynamic Smagorinsky model at the same nominal friction Reynolds number. Sampled the flow through multiple y-z planes and analyzed mean velocity profiles, Reynolds stresses, streamline patterns, and Q-criterion visualizations and compared to DNS results.",
     coverImage: jet_thumbnail2,
     hero: Umag_jet,
-    gallery: [T_jet_mean],
+    gallery: [T_jet_mean,p_mean_jet],
   },
   
   {
