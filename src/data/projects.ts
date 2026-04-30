@@ -43,8 +43,10 @@ import log_scaled_rough from "@/assets/log_scaled_rough.png";
 import streamline from "@/assets/streamline.png";
 import log_law_vert_channel from "@/assets/log_law_vert_channel.png";
 import cone from "@/assets/cone.png";
-
-
+import Umag_jet from "@/assets/Umag_jet.mp4";
+import T_jet from "@/assets/T_jet.mp4";
+import jet_thumbnail from "@/assets/jet_thumbnail2.png";
+import T_jet_mean from "@/assets/T_jet_mean.png";
 
 export interface Project {
   id: string;
