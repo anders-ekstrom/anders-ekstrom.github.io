@@ -47,6 +47,15 @@ import Umag_jet from "@/assets/Umag_jet.mp4";
 import T_jet_mean from "@/assets/T_jet_mean.png";
 import jet_thumbnail2 from "@/assets/jet_thumbnail2.png";
 import p_mean_jet from "@/assets/p_mean_jet.png";
+import skin_friction_jet from "@/assets/skin_friction_jet.png";
+import streamline_jet from "@/assets/streamline_jet.png";
+import T_jet_mean2 from "@/assets/T_jet_mean2.png";
+import tke_jet from "@/assets/tke_jet.png";
+import u_profiles_jet from "@/assets/u_profiles_jet.png";
+import Umag_mean from "@/assets/Umag_mean.png";
+import Ux_mean_jet from "@/assets/Ux_mean_jet.png";
+import nusselt_number_jet from "@/assets/nusselt_number_jet.png";
+
 
 
 export interface Project {
