@@ -85,15 +85,7 @@ export const projects: Project[] = [
     gallery: [streamline,log_rough,log_scaled_rough,stresses_rough],
     pdf: "https://drive.google.com/file/d/1QfI-2hM_wUcwFuDQt3UZ32f5sUmfAF1K/view?usp=sharing",
   },
-  {
-    id: "rod-roughened-channel",
-    title: "Rod Roughened Channel Flow",
-    description: "LES of rod-roughened channel to evaluate roughness effects in turbulent channel flow.",
-    longDescription: "Extended the smooth-channel LES setup to a rod-roughened channel in OpenFOAM based on a published DNS configuration. Created the rough-wall geometry by adding evenly spaced square rods to the top and bottom walls, refined the mesh near and between the rods, and ran the case using the dynamic Smagorinsky model at the same nominal friction Reynolds number. Sampled the flow through multiple y-z planes and analyzed mean velocity profiles, Reynolds stresses, streamline patterns, and Q-criterion visualizations and compared to DNS results.",
-    coverImage: rod_thumbnail,
-    hero: rod_movie,
-    gallery: [Umag_jet,log_rough,log_scaled_rough,stresses_rough],
-  },
+
   
   {
     id: "rayleigh-benard",
