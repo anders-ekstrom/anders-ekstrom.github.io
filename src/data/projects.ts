@@ -100,8 +100,8 @@ export const projects: Project[] = [
   {
     id: "impinging-jet",
     title: "Heat Transfer in Impinging Slot Jet",
-    description: "LES of impinging slot jet to evlaute turbulence and heat transfer.",
-    longDescription: "Extended the smooth-channel LES setup to a rod-roughened channel in OpenFOAM based on a published DNS configuration. Created the rough-wall geometry by adding evenly spaced square rods to the top and bottom walls, refined the mesh near and between the rods, and ran the case using the dynamic Smagorinsky model at the same nominal friction Reynolds number. Sampled the flow through multiple y-z planes and analyzed mean velocity profiles, Reynolds stresses, streamline patterns, and Q-criterion visualizations and compared to DNS results.",
+    description: "LES of a heated turbulent impinging slot jet to evaluate flow structure, turbulence, and wall heat transfer",
+    longDescription: "Performed an LES study of a turbulent impinging slot jet in OpenFOAM at Reynolds number = 8200 using the WALE subgrid-scale model. The jet issues from a slot of width B at 300 K and impinges on a constant-temperature heated wall at 320 K. The computational geometry is defined by the slot width B, jet-to-wall spacing H, and streamwise domain length L, with H/B = 5 and H/L = 55. The flow is periodic in the spanwise direction. Results were averaged over 200 saved time fields and used evaluate both the impingement flow structure and the resulting wall heat transfer.",
     coverImage: jet_thumbnail2,
     hero: Umag_jet,
     gallery: [streamline_jet,Umag_mean,Ux_mean_jet,tke_jet,T_jet_mean2,p_mean_jet,nusselt_number_jet,skin_friction_jet,u_profiles_jet],
@@ -166,7 +166,7 @@ export const projects: Project[] = [
     id: "work-in-progress",
     title: "Current Projects in Progress",
     description: "A list of projects I am working on",
-    longDescription: "1. Heat transfer from an impinging jet. \n\n 2. A global dynamic procedure for the Sigma LES model coefficient. \n\n 3. Runge-Kutta time-integration schemes for OpenFOAM",
+    longDescription: "1. A global dynamic procedure for the Sigma LES model coefficient. \n\n 2. Runge-Kutta time-integration schemes for OpenFOAM",
     coverImage: cone,
   },
 ];
