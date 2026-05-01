@@ -8,7 +8,7 @@ const Header = () => {
           Anders Ekstrom
         </h1>
         <p className="mt-4 text-lg md:text-xl font-body text-muted-foreground max-w-xl leading-relaxed">
-          A (work in progress) portfolio to highlight a couple of the projects I have done.
+          
         </p>
         <nav className="mt-6 flex gap-6 text-sm font-body font-medium text-muted-foreground">
           <a href="mailto:travisanders1@gmail.com" className="hover:text-foreground transition-colors">Email</a>
