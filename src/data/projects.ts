@@ -52,8 +52,6 @@ import Umag_mean from "@/assets/Umag_mean.png";
 import Ux_mean_jet from "@/assets/Ux_mean_jet.png";
 import nusselt_number_jet from "@/assets/nusselt_number_jet.png";
 
-
-
 export interface Project {
   id: string;
   title: string;
