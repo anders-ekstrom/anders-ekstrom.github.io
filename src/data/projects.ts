@@ -155,7 +155,7 @@ export const projects: Project[] = [
 
   {
     id: "vertical-channel-heated-walls",
-    title: "Bouyancy Dominated Vertical Chnnel",
+    title: "Bouyancy Dominated Vertical Channel",
     description: "LES study of turbulent vertical channel flow with combined forced and buoyancy-driven convection between isothermal walls",
     longDescription: "Performed an LES study of mixed convection in a turbulent vertical channel with isothermal walls. Gravity acts opposite the mean streamwise direction, so buoyancy assists the flow near the hot wall and opposes it near the cold wall. The solver uses a dynamic procedure for both eddy viscosity and scalar flux. Simulations were run for two cases: friction Reynolds number = 180, Grashof number = 1.6e6 and friction Reynolds number = 180, Grashof number = 0, to isolate effect of buoyancy on the flow.",
     coverImage: vert_channel_thumbnail,
