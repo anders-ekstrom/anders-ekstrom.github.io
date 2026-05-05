@@ -1,7 +1,3 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
 import dam_movie from "@/assets/dam_cropped.mp4";
 import dam_still from "@/assets/dam_thumbnail.png";
 import salt_finger from "@/assets/salt_finger3.png";
